@@ -26,9 +26,7 @@ const OneUser = ({ person }: Props) => {
             <TiPin size={20} />
             <h3> {person.name}</h3>
           </div>
-          <text className="text-sm font-medium  text-slate-400">
-            {person.chat}
-          </text>
+          <p className="text-sm font-medium  text-slate-400">{person.chat}</p>
         </div>
       </div>
 
